@@ -1,6 +1,5 @@
 <template>
   <v-app>
-    
     <v-app-bar app dense>
       <div class="d-flex align-center">
         <v-img
@@ -14,17 +13,8 @@
 
         
       </div>
-      <v-btn text dark color="orange darken-4" link :to="'/ofensas'">
-        Ofenses
-      </v-btn>
-      <v-btn text dark color="orange darken-4" link :to="'/ofensas-overview'">
-        Overview
-      </v-btn>
-      <v-btn text dark color="orange darken-4" link :to="'/assets'">
-        Assets
-      </v-btn>
+
       <v-spacer></v-spacer>
-      <v-toolbar-title >QRadar RestAPI</v-toolbar-title>
       <v-menu left bottom >
 
                     <template v-slot:activator="{ on, attrs }">
